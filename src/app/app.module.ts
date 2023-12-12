@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { BookListComponent } from './book-page/book-list.component';
 import { BooksModalComponent } from './books-modal/books-modal.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { RegisterPageComponent } from './register-page/register-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
